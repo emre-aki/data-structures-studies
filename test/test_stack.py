@@ -1,0 +1,26 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from Stack.stack import Stack
+
+s = Stack()
+s.push(1)
+s.push(2)
+s.push(0)
+s.push(7)
+print('s.is_empty(): %r'%(s.is_empty()))
+print(str(s))
+print('len(s): %d'%(len(s)))
+print('\ns.pop(): %s'%(str(s.pop())))
+print(str(s))
+print('len(s): %d'%(len(s)))
+print('\ns.pop(): %s'%(str(s.pop())))
+print(str(s))
+print('len(s): %d'%(len(s)))
+print('\ns.pop(): %s'%(str(s.pop())))
+print(str(s))
+print('len(s): %d'%(len(s)))
+print('\ns.pop(): %s'%(str(s.pop())))
+print(str(s))
+print('len(s): %d'%(len(s)))
+print('s.is_empty(): %r'%(s.is_empty()))
